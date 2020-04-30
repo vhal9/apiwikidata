@@ -16,7 +16,7 @@ Instalar o pacote requests:
   pip3 install requests
   ```
 Clone o repositorio para a pasta do projeto:
-```sh
+  ```sh
   git clone git@github.com:vhal9/apiwikidata.git
   ```
   ou
@@ -41,10 +41,12 @@ Por exemplo:
 
 ```Dados['Q10387826']['claims']```
 
-O resultado obtido desta consulta, contém todas as propriedades que a entidade UFLA possui, representadas pelo seus identificadores que iniciam com a letra P, como na imagem abaixo:
-![Screenshot](exemploGetProperty.png)
+O resultado obtido desta consulta, contém todas as propriedades que a entidade UFLA possui, representadas pelo seus identificadores que iniciam com a letra P, como na imagem abaixo o idenficador P131:
 
-Nota-se que há um identificador de outra entidade a qual contém uma relação com a entidade ufla.
+![Screenshot](/imagens/exemploGetProperty.png)
+
+Nota-se que há um identificador(Q1638425) de outra entidade a qual contém uma relação com a entidade ufla por meio da propriedade P131.
+
 ## Mais informações sobre como os dados do Wikidata estão dispostos:
 
 https://www.wikidata.org/wiki/Wikidata:Main_Page
